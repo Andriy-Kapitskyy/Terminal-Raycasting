@@ -6,7 +6,7 @@ TARGET    = raycasting
 SRCDIR    = src
 BLDDIR    = build
 
-CFLAGS    = -O3 -Wall -g
+CFLAGS    = -O2 -Wall -Wextra -lm
 
 SRC       = $(wildcard   $(SRCDIR)/*.c)
 OBJ       = $(subst      $(SRCDIR)/,$(BLDDIR)/,$(SRC:.c=.o))
@@ -17,6 +17,7 @@ all: $(OBJ)
 	$(CC) $(OBJ) $(CFLAGS) -o $(BLDDIR)/$(TARGET)
 
 clean:
-	del /Q $(BLDDIR)
+	rm -rf $(BLDDIR)
 $(BLDDIR):
 	mkdir $(BLDDIR)
+	
