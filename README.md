@@ -15,13 +15,14 @@ Raycasted torus in terminal using C.
 
 ### Executing program
 
-For Windows 10 command line:
+Windows 10 command line:
 * execute ```make``` in the project directory, program will be compiled to the ```build``` directory
 * execute ```build\raycasting```
 * if doesn't work, execute ```cc src/main.c && a.exe```
 
-For other platforms:
-* fuck around to find out :)
+Linux:
+* ```make```
+* ```./build/raycasting```
 
 ## Help
 
