@@ -1,6 +1,6 @@
 # Terminal Raycasting
 
-![torus in terminal](https://i.imgur.com/dGqf6j0.png)
+![torus in terminal](https://i.imgur.com/xjPCJl0.png)
 
 ## Description
 
